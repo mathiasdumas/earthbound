@@ -1,0 +1,153 @@
+body {
+
+    background-image: url("img/c92e60295e1fa60b6470f973a629e2b4a781a5ec.gif"); 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+ 
+@font-face {
+    font-family: "mother-logo";
+    src: url(font/earthbound-dialogue.ttf);
+}
+
+.boite-dialogue{
+    padding: 4px;
+    border-radius: 20px; 
+    border: 5px solid white; 
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 400px;
+    height: 100%;
+    margin: 15px 0 0 15px;
+
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: "mother-logo";
+}
+
+.button:hover{
+    background-color: #A03060;
+}
+
+.button-row {
+    display: flex;
+    align-items: center;
+    
+}
+
+.container-ennemi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.ennemi {
+    height: 220px;
+    width: auto;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    background-color: black;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    border-radius: 20px;
+    display: flex;
+    border: 5px solid white;
+    padding: 4px; 
+}
+
+.dropdown-content button {
+    color:white;
+    background-color: black;
+    width: 120px;
+    
+}
+
+.dropdown-content button:hover {
+    background-color: #A03060;
+}
+
+.container-party{
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+
+.container-party, .container-party-border{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-center{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.party-member{
+    height: 150px;
+    width: 150px;
+    background-image: url("img/c5eb0d3742fb8b6ad56547ffad0ba043.jpg");
+    border: 10px solid white;
+    border-radius: 10px;
+
+}
+
+.party-member p {
+    color: white;
+    font-size: 30px;
+    font-family: "mother-logo";
+    margin: 9px;
+}
+
+.container-party-border{
+    height: 180px;
+    width: 180px;
+    border-radius: 15px;
+    align-items: center;
+    margin-top: 40px;
+    background-color: black;
+}
+
+.dialogueBox{
+    font-family: "mother-logo";
+    width: 400px;
+    height: 100px;
+}
+
+.container-dialogueBox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
